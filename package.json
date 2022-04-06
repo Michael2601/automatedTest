@@ -1,0 +1,23 @@
+{
+  "name": "testcafe-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests --selector-timeout 30000 --page-load-timeout 30000 --assertion-timeout 20000"
+  },
+  "keywords": [],
+  "author": "Sheshilov",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "latest",
+    "testcafe-live": "*",
+    "testcafe-reporter-xunit": "latest"
+  },
+  "dependencies": {
+    "core-js": "latest",
+    "npm": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
